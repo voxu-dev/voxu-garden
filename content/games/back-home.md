@@ -29,3 +29,4 @@ When making the assets of Back Home, I wanted to follow the rules of low-poly mo
 {{< carousel-item src="/images/outside.png" alt="Outdoors area" caption="Outdoors area, late in development" >}}
 {{< /carousel >}}
 
+You've reached the end of this page! Thank you for reading :D
