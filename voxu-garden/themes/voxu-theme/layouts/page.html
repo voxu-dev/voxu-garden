@@ -1,0 +1,45 @@
+{{ define "main" }}
+
+{{ with .Params.image }}
+<div class="post-hero">
+  <img src="{{ . }}" alt="{{ $.Title }}">
+</div>
+{{ end }}
+
+<h1>{{ .Title }}</h1>
+
+{{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+{{ $dateHuman := .Date | time.Format ":date_long" }}
+<time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+
+<div class="post-content">
+  {{ .Content }}
+</div>
+
+{{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+
+<style>
+.post-hero {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.post-hero img {
+  width: 100%;
+  max-height: 550px;
+  object-fit: cover;
+  display: block;
+  border-radius: 12px;
+}
+
+/* Constrain images inside post body */
+.post-content img {
+  max-width: 900px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 2rem auto;
+}
+</style>
+
+{{ end }}

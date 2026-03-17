@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Games on JP&#39;s Garden</title>
+    <link>http://localhost:1313/games/</link>
+    <description>Recent content in Games on JP&#39;s Garden</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 17 Mar 2026 17:15:58 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/games/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wartime Shadow: Back Home</title>
+      <link>http://localhost:1313/games/back-home/</link>
+      <pubDate>Tue, 17 Mar 2026 17:15:58 +0800</pubDate>
+      <guid>http://localhost:1313/games/back-home/</guid>
+      <description>&lt;p&gt;Back Home is the culmination of my undergraduate thesis Wartime Shadow: Using Game Design to Foster Empathy for War’s Psychological Effects. This is a short, narrative-driven game about a girl finding herself by facing her childhood trauma.&lt;/p&gt;&#xA;&lt;p&gt;I created all of the models and assets from scratch using Blender. I decided to go for a low-poly aesthetic resembling the graphics of PS1 games. I took inspiration from games like Spyro The Dragon when making the skybox, and painted shadows onto models to capture a low-resolution, indie aesthetic.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

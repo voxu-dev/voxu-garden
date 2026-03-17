@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Posts | JP&#39;s Garden</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+
+      <script src="/js/main.js"></script>
+
+
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+  <a href="/" class="site-title">voxu garden</a>
+  <nav>
+    <a href="/games">games</a>
+    <a href="/projects">projects</a>
+    <a href="/about">about</a>
+  </nav>
+</div>
+  </header>
+  <main class="container">
+    
+<h1>Posts</h1>
+<p>Tempor est exercitation ad qui pariatur quis adipisicing aliquip nisi ea consequat ipsum occaecat. Nostrud consequat ullamco laboris fugiat esse esse adipisicing velit laborum ipsum incididunt ut enim. Dolor pariatur nulla quis fugiat dolore excepteur. Aliquip ad quis aliqua enim do consequat.</p>
+
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700&family=DM+Sans:wght@400;500&display=swap');
+
+  .projects-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2.5rem;
+    max-width: 860px;
+  }
+
+  .project-card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(255, 255, 255, 0.03);
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+  }
+
+  .project-card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  }
+
+  .project-card__image-wrapper {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 7;
+    overflow: hidden;
+  }
+
+  .project-card__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+    filter: brightness(0.85);
+  }
+
+  .project-card:hover .project-card__image {
+    transform: scale(1.03);
+    filter: brightness(1);
+  }
+
+   
+  .project-card__image-wrapper::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to bottom,
+      transparent 40%,
+      rgba(0, 0, 0, 0.75) 100%
+    );
+    pointer-events: none;
+  }
+
+  .project-card__body {
+    padding: 1.4rem 1.8rem 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .project-card__title {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.55rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    line-height: 1.1;
+  }
+
+  .project-card__arrow {
+    flex-shrink: 0;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+  }
+
+  .project-card:hover .project-card__arrow {
+    background: white;
+    border-color: white;
+    transform: translateX(3px);
+  }
+
+  .project-card__arrow svg {
+    transition: stroke 0.2s ease;
+    stroke: white;
+  }
+
+  .project-card:hover .project-card__arrow svg {
+    stroke: black;
+  }
+</style>
+
+<div class="projects-grid">
+  
+  <a class="project-card" href="/posts/post-3/">
+    
+    <div class="project-card__body">
+      <div class="project-card__title">Post 3</div>
+      <div class="project-card__arrow">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M3 8h10M9 4l4 4-4 4"/>
+        </svg>
+      </div>
+    </div>
+  </a>
+  
+  <a class="project-card" href="/posts/post-2/">
+    
+    <div class="project-card__body">
+      <div class="project-card__title">Post 2</div>
+      <div class="project-card__arrow">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M3 8h10M9 4l4 4-4 4"/>
+        </svg>
+      </div>
+    </div>
+  </a>
+  
+  <a class="project-card" href="/posts/post-1/">
+    
+    <div class="project-card__body">
+      <div class="project-card__title">Post 1</div>
+      <div class="project-card__arrow">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M3 8h10M9 4l4 4-4 4"/>
+        </svg>
+      </div>
+    </div>
+  </a>
+  
+</div>
+
+
+  </main>
+  <footer>
+    <p>Copyright 2026. All rights reserved.</p>
+
+  </footer>
+  
+</body>
+</html>

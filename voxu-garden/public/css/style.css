@@ -1,0 +1,58 @@
+header {
+  position: sticky;
+  top: 0;
+  background-color: #1a1a1a;
+  border-bottom: 1px solid #2e2e2e;
+  padding: 1rem 2rem;
+  z-index: 100;
+}
+
+.header-inner {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.site-title {
+  color: #e8e8e8;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+
+nav {
+  display: flex;
+  gap: 2rem;
+}
+
+nav a {
+  color: #a0a0a0;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #e8e8e8;
+}
+
+.intro {
+  margin-top: 4rem;
+}
+
+.intro h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.intro p {
+  color: #a0a0a0;
+  max-width: 500px;
+  font-size: 1rem;
+}

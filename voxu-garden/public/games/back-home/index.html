@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Wartime Shadow: Back Home | JP&#39;s Garden</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+
+      <script src="/js/main.js"></script>
+
+
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+  <a href="/" class="site-title">voxu garden</a>
+  <nav>
+    <a href="/games">games</a>
+    <a href="/projects">projects</a>
+    <a href="/about">about</a>
+  </nav>
+</div>
+  </header>
+  <main class="container">
+    
+
+
+<div class="post-hero">
+  <img src="/images/back_home.png" alt="Wartime Shadow: Back Home">
+</div>
+
+
+<h1>Wartime Shadow: Back Home</h1>
+
+
+
+<time datetime="2026-03-17T17:15:58&#43;08:00">March 17, 2026</time>
+
+<div class="post-content">
+  <p>Back Home is the culmination of my undergraduate thesis Wartime Shadow: Using Game Design to Foster Empathy for War’s Psychological Effects. This is a short, narrative-driven game about a girl finding herself by facing her childhood trauma.</p>
+<p>I created all of the models and assets from scratch using Blender. I decided to go for a low-poly aesthetic resembling the graphics of PS1 games. I took inspiration from games like Spyro The Dragon when making the skybox, and painted shadows onto models to capture a low-resolution, indie aesthetic.</p>
+<figure class="rounded"><img src="/images/back_home_skybox.png"
+    alt="Vertex-colored skybox created entirely in Blender."><figcaption>
+      <p>Vertex-colored skybox created entirely in Blender.</p>
+    </figcaption>
+</figure>
+
+<p>Back Home involves two players through a split screen. Each player makes use of a different camera angle, and are able to accomplish certain tasks and see certain things that the other player cannot. The player on the left sees through fixed cameras while the other player assumes a first-person view.</p>
+<figure class="rounded"><img src="/images/split%20sample.png"
+    alt="Character labels aren&rsquo;t present in actual gameplay."><figcaption>
+      <p>Character labels aren&rsquo;t present in actual gameplay.</p>
+    </figcaption>
+</figure>
+
+<p>I also made <strong>all of the music</strong> myself, have a listen!</p>
+<figure class="audio-player">
+  <audio controls>
+    
+    <source src="/audio/solipse.mp3" type="audio/mpeg">
+    <source src="/audio/solipse.ogg" type="audio/ogg">
+    Your browser does not support the audio element.
+  </audio>
+  
+    <figcaption>&#39;Solipse&#39;</figcaption>
+  
+</figure>
+<p>I wanted a somber, melancholic tone to the soundtrack and opted to use pianos all throughout, alongside wavey, spacey ambient sounds. I was heavily inspired by the soundtrack of games like GRIS, where the music greatly complements its story of grief, remembrance and growth.</p>
+<p>When making the assets of Back Home, I wanted to follow the rules of low-poly models as seen in games from the PS1 era. That meant keeping triangles low, painting shadows and gradients onto the textures directly, and minimizing the vertex count as much as possible. My first few models were relatively high-poly, but still suited the vision of the game. As I improved over the course of development, I was able to capture the aesthetic I&rsquo;d aimed for.</p>
+<div class="carousel-container">
+  <button class="carousel-prev">‹</button>
+  <div class="carousel-wrapper">
+<figure class="carousel-item">
+  <img src="/images/walking_child.gif" alt="Child animation reel">
+  
+    <figcaption>Child character animation reel, early in development</figcaption>
+  
+</figure>
+<figure class="carousel-item">
+  <img src="/images/house.png" alt="Main house">
+  
+    <figcaption>Main house, early in development</figcaption>
+  
+</figure>
+<figure class="carousel-item">
+  <img src="/images/outside.png" alt="Outdoors area">
+  
+    <figcaption>Outdoors area, late in development</figcaption>
+  
+</figure>
+</div>
+  <button class="carousel-next">›</button>
+</div>
+
+<style>
+.carousel-container {
+  position: relative;
+  max-width: 900px;
+  margin: 2rem auto;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.carousel-wrapper {
+  display: flex;
+  transition: transform 0.4s ease;
+}
+
+.carousel-item {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.carousel-item img {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+}
+
+.carousel-prev,
+.carousel-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.4);
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  z-index: 10;
+  border-radius: 8px;
+}
+
+.carousel-prev { left: 10px; }
+.carousel-next { right: 10px; }
+
+.carousel-prev:hover,
+.carousel-next:hover {
+  background: rgba(255,255,255,0.6);
+  color: #000;
+}
+</style>
+
+
+<script src="/js/carousel.min.95bfe06cd654d208578aecb999650d9675bf648a9ac25e2c6d626d4f2920543a.js" integrity="sha256-lb/gbNZU0ghXiuy5mWUNlnW/ZIqawl4sbWJtTykgVDo=" crossorigin="anonymous" defer></script>
+
+</div>
+
+
+
+
+<style>
+.post-hero {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.post-hero img {
+  width: 100%;
+  max-height: 550px;
+  object-fit: cover;
+  display: block;
+  border-radius: 12px;
+}
+
+ 
+.post-content img {
+  max-width: 900px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 2rem auto;
+}
+</style>
+
+
+  </main>
+  <footer>
+    <p>Copyright 2026. All rights reserved.</p>
+
+  </footer>
+  
+</body>
+</html>

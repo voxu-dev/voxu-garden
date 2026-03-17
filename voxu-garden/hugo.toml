@@ -1,0 +1,4 @@
+baseURL = 'https://voxu-garden.com/'
+languageCode = 'en-us'
+title = "JP's Garden"
+theme = 'voxu-theme'

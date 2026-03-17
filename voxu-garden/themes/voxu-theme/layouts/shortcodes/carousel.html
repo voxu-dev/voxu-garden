@@ -1,0 +1,60 @@
+<div class="carousel-container">
+  <button class="carousel-prev">‹</button>
+  <div class="carousel-wrapper">
+    {{- .Inner | safeHTML -}}
+  </div>
+  <button class="carousel-next">›</button>
+</div>
+
+<style>
+.carousel-container {
+  position: relative;
+  max-width: 900px;
+  margin: 2rem auto;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.carousel-wrapper {
+  display: flex;
+  transition: transform 0.4s ease;
+}
+
+.carousel-item {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.carousel-item img {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+}
+
+.carousel-prev,
+.carousel-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.4);
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  z-index: 10;
+  border-radius: 8px;
+}
+
+.carousel-prev { left: 10px; }
+.carousel-next { right: 10px; }
+
+.carousel-prev:hover,
+.carousel-next:hover {
+  background: rgba(255,255,255,0.6);
+  color: #000;
+}
+</style>
+
+{{ $carouselJS := resources.Get "js/carousel.js" | minify | fingerprint }}
+<script src="{{ $carouselJS.RelPermalink }}" integrity="{{ $carouselJS.Data.Integrity }}" crossorigin="anonymous" defer></script>
