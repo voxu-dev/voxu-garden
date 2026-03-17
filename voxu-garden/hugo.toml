@@ -1,4 +1,4 @@
-baseURL = 'https://voxu-garden.com/'
+baseURL = 'baseURL = "https://voxu.github.io/"'
 languageCode = 'en-us'
 title = "JP's Garden"
 theme = 'voxu-theme'
